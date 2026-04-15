@@ -3,9 +3,11 @@
 ## Project: PPKI IPB University Writing Standards
 
 ## Build and Search Commands
-- Search rules: `python scripts/search_ppki.py "<query>" -d data/structured`
-- KBBI Check: python scripts/check_kbbi.py "<kata>"
-- Clean source: `python scripts/clean_md.py`
+- Search rules: `python scripts/search_ppki.py "<query>"`
+- Thesis Scaffolder: `python scripts/init_thesis.py "<name>"`
+- Auto-Fixer: `python scripts/fix_ppki.py "<file>"`
+- Lint/Validate: `python scripts/lint_ppki.py "<file>"`
+- KBBI Check: `python scripts/check_kbbi.py "<kata>"`
 - Repack skill: `node C:\Users\dzakw\AppData\Local\nvm\v22.14.0\node_modules\@google\gemini-cli\bundle\builtin\skill-creator\scripts\package_skill.cjs ppki-ipb .`
 
 ## Style Guidelines
@@ -17,7 +19,7 @@
   - `Daftar Pustaka` (NOT `Referensi`)
 
 ## Architecture
-- `data/structured/`: Primary knowledge base for writing standards.
+- `skills/ppki-ipb/references/`: Primary knowledge base for writing standards.
 - `scripts/`: Tooling for searching and cleaning the knowledge base.
 - `.gemini/`: Packaged skills for Gemini CLI.
 

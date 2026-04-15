@@ -40,6 +40,8 @@ This package includes deterministic scripts to ground agent outputs:
 - **`search_ppki.py`**: BM25-powered knowledge retrieval from the official 2024 manual.
 - **`check_kbbi.py`**: Direct integration with **KBBI Edition VI API** for formal word validation.
 - **`lint_ppki.py`**: Active linter to check drafs for house style compliance.
+- **`fix_ppki.py`**: Auto-fixer for terminology, margins, and passive voice conversion.
+- **`init_thesis.py`**: Scaffolder to instantly initialize a complete IPB thesis folder structure.
 
 ---
 

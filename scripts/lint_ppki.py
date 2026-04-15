@@ -49,12 +49,33 @@ class PPKILinter:
         for match in titles:
             self.errors.append(f"[ILUSTRASI] Judul {match.group(1)} tidak boleh diakhiri tanda titik: '{match.group(0).strip()}'.")
 
+    def check_technical_notation(self):
+        """Aturan: Pengecekan angka, satuan, dan operator matematika."""
+        # 1. Cek desimal titik (IPB pakai koma)
+        # Mencari pola angka.angka (misal 0.24) - berisiko false positive untuk versi/coding
+        dots = re.finditer(r"\b\d+\.\d+\b", self.content)
+        for match in dots:
+            # Kecualikan jika itu bagian dari penomoran (misal 1.1) atau versi
+            if not re.search(r"^(Tabel|Gambar|Bab|##)\s", self.content[:match.start()].splitlines()[-1]):
+                self.errors.append(f"[NOTASI] Gunakan koma sebagai pemisah desimal: '{match.group(0)}' (Standar IPB).")
+
+        # 2. Cek spasi satuan (misal 100kg -> seharusnya 100 kg)
+        units = re.finditer(r"\b\d+(kg|m|s|N|Hz|V|mol|cd|rd|sr)\b", self.content)
+        for match in units:
+            self.errors.append(f"[NOTASI] Tambahkan spasi antara angka dan satuan: '{match.group(0)}'.")
+
+        # 3. Cek spasi operator (misal x=y -> seharusnya x = y)
+        operators = re.finditer(r"\w[=\+\-\*\/]\w", self.content)
+        for match in operators:
+            self.errors.append(f"[NOTASI] Gunakan spasi sebelum dan sesudah operator: '{match.group(0)}'.")
+
     def run(self):
         self.check_forbidden_pronouns()
         self.check_terminology()
         self.check_citation_format()
         self.check_margins_mention()
         self.check_illustration_titles()
+        self.check_technical_notation()
         return self.errors
 
 if __name__ == "__main__":

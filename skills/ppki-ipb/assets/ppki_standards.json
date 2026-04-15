@@ -8,29 +8,35 @@
     "passive_voice": true,
     "no_dan_in_bibliography": true
   },
+  "technical_notation": {
+    "decimal_separator": ",",
+    "thousands_separator": ".",
+    "unit_spacing": "Always add a space between number and unit (e.g., '100 kg', '20 °C').",
+    "italic_vs_upright": {
+      "variables_symbols": "italic (e.g., *V*, *x*, *y*)",
+      "units_constants": "upright (e.g., kg, m, s, V, volt)"
+    },
+    "math_operators": "Add spaces before and after operators (e.g., 'x = y + 1').",
+    "decimal_series_separator": "semicolon (e.g., '3,4; 0,5; 4,5')"
+  },
   "illustration_rules": {
     "table": {
       "title_position": "above",
       "title_ending_period": false,
       "horizontal_lines_count": 3,
-      "vertical_lines_allowed": false,
-      "numeric_alignment": "decimal_aligned or right",
-      "markdown_tip": "Use only top, middle (header), and bottom separators. No vertical pipes '|' except for column structure if necessary, but visually clean."
+      "vertical_lines_allowed": false
     },
     "figure": {
       "title_position": "below",
-      "title_ending_period": false,
-      "alignment": "centered"
+      "title_ending_period": false
     }
   },
   "schemas": {
     "journal": {
-      "template": "{authors}. {year}. {title}. {journal_name}. {volume}({issue}):{pages}. {doi}",
-      "example": "Kusrini MD, Lubis MI, Endarwin W, et al. 2017. Elevation range shift after 40 years: the amphibians of Mount Gede Pangrango National Park revisited. Biol Conserv. 206:75−84. doi:10.1016/j.biocon.2016.12.018."
+      "template": "{authors}. {year}. {title}. {journal_name}. {volume}({issue}):{pages}. {doi}"
     },
     "book": {
-      "template": "{authors}. {year}. {title}. [{edition}]. {city}: {publisher}.",
-      "example": "Satria A. 2015. Politik Kelautan dan Perikanan. Jakarta: Obor."
+      "template": "{authors}. {year}. {title}. [{edition}]. {city}: {publisher}."
     }
   }
 }

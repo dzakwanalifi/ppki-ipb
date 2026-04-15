@@ -26,10 +26,15 @@ Always refer to `assets/ppki_standards.json` when generating tables, figures, or
 ## 🛠️ Specialized Tools
 - **Search**: `python scripts/search_ppki.py "<query>"`
 - **Lint/Validate**: `python scripts/lint_ppki.py <target_file.md>`
+- **Auto-Fixer**: `python scripts/fix_ppki.py <target_file.md>`
+  *Automatically corrects terminology, removes periods from titles, and converts first-person pronouns to neutral/passive.*
+- **Thesis Scaffolder**: `python scripts/init_thesis.py <project_name>`
+  *Initializes a complete IPB thesis folder structure with 7 main sections and placeholder files.*
 - **KBBI Check**: `python scripts/check_kbbi.py "<kata>"`
   *Use this to verify if a word is formal/standard (baku) according to KBBI Edition VI.*
 
 ## 💡 Best Practices
 - **Active Validation**: Before finishing a task, run the Linter on the output to ensure compliance.
 - **Illustration Rules**: Tables have only 3 horizontal lines and NO vertical lines. Titles for Tables (above) and Figures (below) must NOT end with a period.
+- **Technical Notation**: Use comma (,) for decimals. Add a space between number and unit (e.g., 100 kg). Variables should be *italicized*, but units must be upright.
 - **Tone**: Always maintain a formal, objective, and passive tone in Indonesian.
