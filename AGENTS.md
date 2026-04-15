@@ -16,6 +16,7 @@ A structured knowledge base and toolset for IPB's official writing standards (20
 - Search: `python scripts/search_ppki.py "<query>"`
 - Thesis Scaffolder: `python scripts/init_thesis.py "<name>"`
 - Auto-Fixer: `python scripts/fix_ppki.py "<file>"`
+- Citation Converter: `python scripts/cite_ppki.py "<DOI>"`
 - Lint/Validate: `python scripts/lint_ppki.py "<file>"`
 - KBBI Check: `python scripts/check_kbbi.py "<kata>"`
 

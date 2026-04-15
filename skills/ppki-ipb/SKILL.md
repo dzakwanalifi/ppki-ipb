@@ -30,6 +30,8 @@ Always refer to `assets/ppki_standards.json` when generating tables, figures, or
   *Automatically corrects terminology, removes periods from titles, and converts first-person pronouns to neutral/passive.*
 - **Thesis Scaffolder**: `python scripts/init_thesis.py <project_name>`
   *Initializes a complete IPB thesis folder structure with 7 main sections and placeholder files.*
+- **Citation Converter**: `python scripts/cite_ppki.py <DOI>`
+  *Fetches metadata via CrossRef and generates a perfectly formatted IPB 2024 citation string.*
 - **KBBI Check**: `python scripts/check_kbbi.py "<kata>"`
   *Use this to verify if a word is formal/standard (baku) according to KBBI Edition VI.*
 

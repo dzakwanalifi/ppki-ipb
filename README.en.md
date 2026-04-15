@@ -41,6 +41,7 @@ This package includes deterministic scripts to ground agent outputs:
 - **`check_kbbi.py`**: Direct integration with **KBBI Edition VI API** for formal word validation.
 - **`lint_ppki.py`**: Active linter to check drafs for house style compliance.
 - **`fix_ppki.py`**: Auto-fixer for terminology, margins, and passive voice conversion.
+- **`cite_ppki.py`**: Automatic DOI-to-IPB 2024 citation converter.
 - **`init_thesis.py`**: Scaffolder to instantly initialize a complete IPB thesis folder structure.
 
 ---

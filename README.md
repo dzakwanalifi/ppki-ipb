@@ -41,6 +41,7 @@ Paket ini menyertakan skrip deterministik untuk memastikan jawaban agen AI akura
 - **`check_kbbi.py`**: Integrasi langsung dengan **API KBBI Edisi VI** untuk validasi kata baku.
 - **`lint_ppki.py`**: Linter aktif untuk memeriksa kepatuhan draf terhadap gaya selingkung IPB.
 - **`fix_ppki.py`**: Alat perbaikan otomatis untuk terminologi, pias, dan konversi kalimat pasif.
+- **`cite_ppki.py`**: Konverter otomatis DOI menjadi format Daftar Pustaka IPB 2024 yang presisi.
 - **`init_thesis.py`**: Scaffolder untuk menginisialisasi struktur folder skripsi/tesis standar IPB secara instan.
 
 ---
