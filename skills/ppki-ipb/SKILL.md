@@ -19,10 +19,15 @@ This skill uses progressive disclosure via `references/`:
 - `05_Bab_5_Tata_Tulis_Teknis/5.0_Ketentuan_Umum_Pengetikan.md`: Margins and fonts.
 - `07_Bab_7_Daftar_Pustaka`: Citation rules (critical).
 
-## 🛠️ Tools
+### 💎 Citation Standard (JSON Schema)
+Always refer to `assets/citation_schemas.json` when generating or correcting references. It contains exact templates for Journals, Books, and Theses.
+
+## 🛠️ Specialized Tools
 - **Search**: `python scripts/search_ppki.py "<query>"`
+- **Lint/Validate**: `python scripts/lint_ppki.py <target_file.md>`
+  *Use this to check user drafts for passive voice, terminology (Prakata/Simpulan), and citation errors.*
 
 ## 💡 Best Practices
-- Always use passive voice in Indonesian.
-- Follow the 4-3-3-3 cm margin rule strictly.
-- Use "Prakata" and "Simpulan" as per the manual.
+- **Active Validation**: Before finishing a task, run the Linter on the output to ensure compliance.
+- **Citation Grounding**: Use the JSON examples as a guide for punctuation (no dots in initials).
+- **Tone**: Always maintain a formal, objective, and passive tone in Indonesian.
