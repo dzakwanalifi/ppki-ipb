@@ -1,7 +1,6 @@
 # Repositori Agen Kecerdasan Buatan (AI) Pedoman Penulisan Karya Ilmiah IPB University
 
 [![AI Compatible](https://img.shields.io/badge/AI-Gemini%20CLI%20|%20Claude%20Code%20|%20Cursor-blueviolet)](https://github.com/google/gemini-cli)
-[![License: Academic](https://img.shields.io/badge/License-IPB%20Academic-green)](LICENSE)
 
 ## PRAKATA
 
@@ -66,4 +65,4 @@ Penerapan digitalisasi PPKI IPB 2024 dalam bentuk repositori agen AI ini merupak
 IPB University. 2024. *Pedoman Penulisan Karya Ilmiah Edisi 2024*. Bogor (ID): IPB Press.
 
 ---
-*Dikembangkan oleh Gemini CLI Agent sebagai standar repositori AI-Ready untuk IPB University.*
+*Dikembangkan oleh dzakwanalifi bersama Gemini CLI Agent sebagai standar repositori AI-Ready untuk IPB University.*

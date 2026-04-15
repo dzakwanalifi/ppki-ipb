@@ -4,6 +4,7 @@ This file provides universal context for AI agents working in this repository.
 
 ## Project Identity
 **Pedoman Penulisan Karya Ilmiah (PPKI) IPB University**.
+Developed by **dzakwanalifi**.
 A structured knowledge base and toolset for IPB's official writing standards (2024 Edition).
 
 ## Tech Stack
