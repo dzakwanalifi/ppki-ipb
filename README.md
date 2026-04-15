@@ -44,36 +44,35 @@ Sesuai dengan Lampiran 16 PPKI, batas pengetikan naskah pada kertas A4 (80 gram)
 
 ---
 
-## BAB IV PANDUAN AKTIVASI AGEN AI
+## BAB IV PANDUAN PEMASANGAN KE PROYEK ANDA
 
-Untuk memanfaatkan basis pengetahuan ini secara optimal, silakan ikuti prosedur aktivasi sesuai dengan platform AI yang digunakan:
+Gunakan perintah di bawah ini pada terminal di **folder proyek skripsi/laporan Anda** untuk memasang kecerdasan PPKI secara otomatis:
 
-### 4.1 Gemini CLI (Agent Skill)
-Gunakan perintah berikut untuk menginstal modul keahlian PPKI ke dalam Gemini CLI Anda:
+### 4.1 Untuk Pengguna Cursor & Windsurf (Otomatis)
+Salin seluruh aturan pemformatan PPKI ke folder proyek Anda dengan satu perintah:
 ```bash
-# Instalasi skill di lingkup workspace
-gemini skills install .gemini/ppki-ipb.skill --scope workspace
+npx degit dzakwanalifi/ppki-ipb/.cursor/rules .cursor/rules --force
+```
 
-# Muat ulang konfigurasi untuk mengaktifkan
+### 4.2 Untuk Pengguna Claude Code
+Pasang memori persisten PPKI agar Claude selalu patuh pada gaya selingkung IPB:
+```bash
+curl -o CLAUDE.md https://raw.githubusercontent.com/dzakwanalifi/ppki-ipb/master/CLAUDE.md
+```
+
+### 4.3 Untuk Pengguna Gemini CLI
+Instal modul keahlian (*skill*) secara langsung dari repositori ini:
+```bash
+# Pastikan gemini-cli sudah terinstal
+gemini skills install https://github.com/dzakwanalifi/ppki-ipb --scope workspace
 /skills reload
 ```
-*Setelah terinstal, Gemini akan otomatis merujuk pada aturan PPKI setiap kali Anda meminta bantuan penulisan karya ilmiah.*
 
-### 4.2 Claude Code
-Claude secara otomatis akan membaca berkas `CLAUDE.md` saat dijalankan di direktori ini. Pastikan Anda memulai sesi Claude di root repositori:
+### 4.4 Untuk AI Lain (AGENTS.md)
+Gunakan standar universal untuk agen AI lainnya:
 ```bash
-# Jalankan Claude di root direktori
-claude
+curl -o AGENTS.md https://raw.githubusercontent.com/dzakwanalifi/ppki-ipb/master/AGENTS.md
 ```
-*Claude akan langsung memiliki konteks mengenai perintah pencarian dan gaya bahasa pasif yang diwajibkan.*
-
-### 4.3 Cursor & Windsurf
-Repositori ini telah dilengkapi dengan aturan modular dalam folder `.cursor/rules/`.
-- **Aktivasi**: Tidak diperlukan langkah manual. Cursor akan mendeteksi berkas `.mdc` secara otomatis.
-- **Verifikasi**: Buka berkas Markdown apa pun di folder `data/structured/`, maka aturan pias dan bahasa akan otomatis diterapkan oleh asisten IDE.
-
-### 4.4 GitHub Copilot
-Bagi pengguna Copilot, instruksi khusus telah disediakan di `.github/copilot-instructions.md`. Pastikan ekstensi Copilot Anda berada pada versi terbaru untuk mendukung fitur instruksi kustom berbasis repositori.
 
 ---
 
