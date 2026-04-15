@@ -1,6 +1,7 @@
 # Repositori Agen Kecerdasan Buatan (AI) Pedoman Penulisan Karya Ilmiah IPB University
 
 [![AI Compatible](https://img.shields.io/badge/AI-Gemini%20CLI%20|%20Claude%20Code%20|%20Cursor-blueviolet)](https://github.com/google/gemini-cli)
+[![Language: English](https://img.shields.io/badge/Language-English-blue)](README.en.md)
 
 ## PRAKATA
 
