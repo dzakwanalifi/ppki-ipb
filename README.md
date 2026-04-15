@@ -1,124 +1,63 @@
-# Repositori Agen Kecerdasan Buatan (AI) Pedoman Penulisan Karya Ilmiah IPB University
+# PPKI IPB Agent Skills
+
+Kumpulan keahlian agen AI (*Agent Skills*) untuk **Pedoman Penulisan Karya Ilmiah (PPKI) IPB University 2024**. Proyek ini menyediakan instruksi dan skrip terpaket untuk memperluas kemampuan agen AI dalam penulisan akademik, pemformatan pias, dan validasi bahasa Indonesia.
 
 [![AI Compatible](https://img.shields.io/badge/AI-Gemini%20CLI%20|%20Claude%20Code%20|%20Cursor-blueviolet)](https://github.com/google/gemini-cli)
-[![Language: English](https://img.shields.io/badge/Language-English-blue)](README.en.md)
+[![Vercel Skills](https://img.shields.io/badge/Vercel-Skills-black)](https://skills.sh)
 
-## PRAKATA
+## 🚀 Instalasi
 
-Repositori ini disusun sebagai digitalisasi dari **Pedoman Penulisan Karya Ilmiah (PPKI) IPB University Edisi 2024**. Melalui penerapan teknologi *Agent Skill* dan struktur data Markdown, repositori ini diharapkan dapat menjadi rujukan otomatis bagi mahasiswa dan peneliti di lingkungan IPB University dalam menyusun karya ilmiah yang sesuai dengan gaya selingkung universitas. Pengembangan ini merupakan bagian dari upaya peningkatan kualitas dan standarisasi karya ilmiah di era kecerdasan buatan.
-
----
-
-## BAB I PENDAHULUAN
-
-Tuntutan perkembangan zaman mengharuskan perubahan paradigma bahwa karya ilmiah harus terpublikasi seluas-luasnya. Selaras dengan amanat dalam KKNI, mutu skripsi, tesis, dan disertasi harus layak terbit di jurnal ilmiah nasional terakreditasi maupun internasional bereputasi. 
-
-Repositori ini hadir untuk mentransformasikan dokumen statis menjadi basis pengetahuan yang dapat dikonsumsi oleh agen AI. Dengan demikian, agen AI dapat memberikan bantuan penulisan yang presisi, mulai dari tata tulis teknis hingga etika pengutipan, tanpa mengurangi integritas akademik penulis.
-
----
-
-## BAB II STRUKTUR DAN KOMPATIBILITAS AGEN AI
-
-Struktur repositori ini dirancang untuk mendukung berbagai platform kecerdasan buatan melalui konfigurasi *AI-Native*:
-
-1. **Gemini CLI (`.gemini/`)**: Modul keahlian (*skill*) yang dapat diinstal untuk instruksi prosedural langsung di terminal.
-2. **Claude Code (`CLAUDE.md`)**: Konfigurasi memori persisten untuk asisten terminal Claude.
-3. **Cursor & Windsurf (`.cursor/rules/`)**: Aturan modular berbasis *glob-pattern* untuk penerapan otomatis di lingkungan IDE.
-4. **Universal Standard (`AGENTS.md`)**: Standar universal Linux Foundation (2026) yang dapat dibaca oleh hampir seluruh agen AI modern (Codex, Copilot, Devin).
-
----
-
-## BAB III KETENTUAN TEKNIS PENULISAN (PPKI COMPLIANCE)
-
-Seluruh agen AI yang menggunakan repositori ini diinstruksikan untuk mematuhi ketentuan teknis berikut:
-
-### 3.1 Pias (Margin) dan Tata Letak
-Sesuai dengan Lampiran 16 PPKI, batas pengetikan naskah pada kertas A4 (80 gram) ditetapkan sebagai berikut:
-- **Pias Kiri**: 4 cm (untuk ruang penjilidan).
-- **Pias Atas, Kanan, dan Bawah**: masing-masing 3 cm.
-- **Jarak Baris**: 1 spasi.
-
-### 3.2 Tipografi dan Bahasa
-- **Jenis Huruf**: Times New Roman ukuran 12 poin untuk teks utama, dan 14 poin (Tebal) untuk judul bab.
-- **Gaya Bahasa**: Wajib menggunakan Bahasa Indonesia formal dengan kalimat pasif yang objektif. Penggunaan kata ganti orang pertama (Saya/Kami) harus dihindari.
-- **Istilah Baku**: Wajib menggunakan istilah **Prakata** (bukan Kata Pengantar), **Simpulan** (bukan Kesimpulan), dan **Daftar Pustaka** (bukan Referensi).
-
----
-
-## BAB IV PANDUAN PEMASANGAN KE PROYEK ANDA (ULTRA FAST)
-
-Cara paling modern untuk memasang kecerdasan PPKI ini adalah menggunakan **Vercel Agent Skills CLI**. Perintah ini otomatis memasangkan *skills* ke seluruh AI (Cursor, Claude Code, Cline, dll.) secara sekaligus:
+Pasang kecerdasan PPKI ke proyek Anda menggunakan CLI Vercel Agent Skills:
 
 ```bash
 npx skills add dzakwanalifi/ppki-ipb
 ```
 
-### Metode Alternatif (Manual):
-
-#### 4.1 Untuk Pengguna Cursor & Windsurf
-```bash
-npx degit dzakwanalifi/ppki-ipb/skills/ppki-ipb/references .cursor/rules --force
-```
-
-#### 4.2 Untuk Pengguna Claude Code
-```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/dzakwanalifi/ppki-ipb/master/CLAUDE.md
-```
-
-### 4.3 Untuk Pengguna Gemini CLI
-Instal modul keahlian (*skill*) secara langsung dari repositori ini:
-```bash
-# Pastikan gemini-cli sudah terinstal
-gemini skills install https://github.com/dzakwanalifi/ppki-ipb --scope workspace
-/skills reload
-```
-
-### 4.4 Untuk AI Lain (AGENTS.md)
-Gunakan standar universal untuk agen AI lainnya:
-```bash
-curl -o AGENTS.md https://raw.githubusercontent.com/dzakwanalifi/ppki-ipb/master/AGENTS.md
-```
+*Mendukung 18+ agen AI termasuk Claude Code, Cursor, GitHub Copilot, dan Gemini CLI.*
 
 ---
 
-## BAB V PANDUAN OPERASIONAL (TOOLS)
+## 🧠 Keahlian yang Tersedia
 
-Pencarian aturan dan validasi bahasa dapat dilakukan melalui perintah terminal berikut:
+### `ppki-ipb`
+Instruksi terpaket untuk gaya selingkung IPB University.
+**Gunakan saat:**
+- Menulis atau meninjau draf skripsi, tesis, atau disertasi.
+- Mengatur margin, fon, dan struktur sistematika dokumen.
+- Membuat daftar pustaka sesuai gaya IPB/APA 7th.
 
-### 5.1 Pencarian Basis Pengetahuan (BM25)
-```bash
-python scripts/search_ppki.py "<kata_kunci>"
-```
-
-### 5.2 Pengecekan Kata Baku (KBBI VI)
-```bash
-python scripts/check_kbbi.py "<kata>"
-```
-*Fitur ini terhubung langsung dengan API KBBI Edisi VI untuk memastikan diksi Anda sesuai dengan standar nasional.*
-
-### 5.3 Validasi Gaya Selingkung (Linter)
-```bash
-python scripts/lint_ppki.py <target_file.md>
-```
+**Kemampuan:**
+- **Validasi Tata Letak**: Memastikan pias 4-3-3-3 cm dan tipografi Times New Roman 12pt.
+- **Penegakan Terminologi**: Mengotomatiskan penggunaan "Prakata" (bukan Kata Pengantar) dan "Simpulan" (bukan Kesimpulan).
+- **Kualitas Kebahasaan**: Mengaudit penggunaan kalimat pasif dan nada akademik formal.
 
 ---
 
-## SIMPULAN
+## 🛠️ Alat Khusus (Tools)
 
-Penerapan digitalisasi PPKI IPB 2024 dalam bentuk repositori agen AI ini merupakan langkah strategis dalam memfasilitasi mahasiswa IPB University untuk menghasilkan karya ilmiah yang berkualitas tinggi. Dengan integrasi yang tepat, standar gaya selingkung universitas dapat dipertahankan secara konsisten di seluruh tahap penulisan.
+Paket ini menyertakan skrip deterministik untuk memastikan jawaban agen AI akurat:
 
----
-
-## KREDIT & APRESIASI
-
-Pengembangan repositori ini tidak lepas dari dukungan data eksternal berikut:
-- **KBBI API (Edisi VI)**: Disediakan oleh [raf555/kbbi-api](https://github.com/raf555/kbbi-api). Terima kasih telah menyediakan akses data bahasa Indonesia yang mutakhir dan stabil.
+- **`search_ppki.py`**: Pencarian basis pengetahuan berbasis BM25 dari pedoman resmi 2024.
+- **`check_kbbi.py`**: Integrasi langsung dengan **API KBBI Edisi VI** untuk validasi kata baku.
+- **`lint_ppki.py`**: Linter aktif untuk memeriksa kepatuhan draf terhadap gaya selingkung IPB.
 
 ---
 
-## DAFTAR PUSTAKA
+## 📂 Struktur
 
-IPB University. 2024. *Pedoman Penulisan Karya Ilmiah Edisi 2024*. Bogor (ID): IPB Press.
+- `skills/ppki-ipb/SKILL.md`: Instruksi utama dan pemicu (*triggers*) untuk agen.
+- `skills/ppki-ipb/references/`: Basis pengetahuan terstruktur per bab.
+- `skills/ppki-ipb/assets/`: Skema JSON untuk *grounding* sitasi.
+- `scripts/`: Alat otomatisasi berbasis Python.
 
 ---
-*Dikembangkan oleh dzakwanalifi bersama Gemini CLI Agent sebagai standar repositori AI-Ready untuk IPB University.*
+
+## 📖 Konteks Ilmiah (PPKI 2024)
+
+Meskipun dibangun untuk agen AI, inti kecerdasan ini mengikuti **Pedoman Penulisan Karya Ilmiah IPB University Edisi 2024**:
+- **Sistem**: Harvard (Nama-Tahun).
+- **Gaya**: CSE 8th (Dimodifikasi).
+- **Bahasa**: Indonesia Formal, Kalimat Pasif.
+
+---
+*Dikembangkan oleh dzakwanalifi bersama Gemini CLI Agent. Kiblat: Standar Vercel Agent Skills.*
