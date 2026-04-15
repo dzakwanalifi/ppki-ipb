@@ -44,7 +44,40 @@ Sesuai dengan Lampiran 16 PPKI, batas pengetikan naskah pada kertas A4 (80 gram)
 
 ---
 
-## BAB IV PANDUAN OPERASIONAL
+## BAB IV PANDUAN AKTIVASI AGEN AI
+
+Untuk memanfaatkan basis pengetahuan ini secara optimal, silakan ikuti prosedur aktivasi sesuai dengan platform AI yang digunakan:
+
+### 4.1 Gemini CLI (Agent Skill)
+Gunakan perintah berikut untuk menginstal modul keahlian PPKI ke dalam Gemini CLI Anda:
+```bash
+# Instalasi skill di lingkup workspace
+gemini skills install .gemini/ppki-ipb.skill --scope workspace
+
+# Muat ulang konfigurasi untuk mengaktifkan
+/skills reload
+```
+*Setelah terinstal, Gemini akan otomatis merujuk pada aturan PPKI setiap kali Anda meminta bantuan penulisan karya ilmiah.*
+
+### 4.2 Claude Code
+Claude secara otomatis akan membaca berkas `CLAUDE.md` saat dijalankan di direktori ini. Pastikan Anda memulai sesi Claude di root repositori:
+```bash
+# Jalankan Claude di root direktori
+claude
+```
+*Claude akan langsung memiliki konteks mengenai perintah pencarian dan gaya bahasa pasif yang diwajibkan.*
+
+### 4.3 Cursor & Windsurf
+Repositori ini telah dilengkapi dengan aturan modular dalam folder `.cursor/rules/`.
+- **Aktivasi**: Tidak diperlukan langkah manual. Cursor akan mendeteksi berkas `.mdc` secara otomatis.
+- **Verifikasi**: Buka berkas Markdown apa pun di folder `data/structured/`, maka aturan pias dan bahasa akan otomatis diterapkan oleh asisten IDE.
+
+### 4.4 GitHub Copilot
+Bagi pengguna Copilot, instruksi khusus telah disediakan di `.github/copilot-instructions.md`. Pastikan ekstensi Copilot Anda berada pada versi terbaru untuk mendukung fitur instruksi kustom berbasis repositori.
+
+---
+
+## BAB V PANDUAN OPERASIONAL PENCARIAN (SEARCH TOOL)
 
 Pencarian aturan spesifik dalam basis pengetahuan dapat dilakukan melalui perintah terminal berikut:
 ```bash
