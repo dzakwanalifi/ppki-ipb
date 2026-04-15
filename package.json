@@ -1,0 +1,17 @@
+{
+  "name": "ppki-ipb",
+  "version": "1.0.0",
+  "description": "AI-Native Knowledge Base for IPB University Writing Standards",
+  "author": "dzakwanalifi",
+  "license": "Unlicense",
+  "keywords": [
+    "ipb",
+    "ppki",
+    "ai-agents",
+    "vercel-skills",
+    "writing-standards"
+  ],
+  "skills": {
+    "ppki-ipb": "./skills/ppki-ipb"
+  }
+}

@@ -44,18 +44,22 @@ Sesuai dengan Lampiran 16 PPKI, batas pengetikan naskah pada kertas A4 (80 gram)
 
 ---
 
-## BAB IV PANDUAN PEMASANGAN KE PROYEK ANDA
+## BAB IV PANDUAN PEMASANGAN KE PROYEK ANDA (ULTRA FAST)
 
-Gunakan perintah di bawah ini pada terminal di **folder proyek skripsi/laporan Anda** untuk memasang kecerdasan PPKI secara otomatis:
+Cara paling modern untuk memasang kecerdasan PPKI ini adalah menggunakan **Vercel Agent Skills CLI**. Perintah ini otomatis memasangkan *skills* ke seluruh AI (Cursor, Claude Code, Cline, dll.) secara sekaligus:
 
-### 4.1 Untuk Pengguna Cursor & Windsurf (Otomatis)
-Salin seluruh aturan pemformatan PPKI ke folder proyek Anda dengan satu perintah:
 ```bash
-npx degit dzakwanalifi/ppki-ipb/.cursor/rules .cursor/rules --force
+npx skills add dzakwanalifi/ppki-ipb
 ```
 
-### 4.2 Untuk Pengguna Claude Code
-Pasang memori persisten PPKI agar Claude selalu patuh pada gaya selingkung IPB:
+### Metode Alternatif (Manual):
+
+#### 4.1 Untuk Pengguna Cursor & Windsurf
+```bash
+npx degit dzakwanalifi/ppki-ipb/skills/ppki-ipb/references .cursor/rules --force
+```
+
+#### 4.2 Untuk Pengguna Claude Code
 ```bash
 curl -o CLAUDE.md https://raw.githubusercontent.com/dzakwanalifi/ppki-ipb/master/CLAUDE.md
 ```
