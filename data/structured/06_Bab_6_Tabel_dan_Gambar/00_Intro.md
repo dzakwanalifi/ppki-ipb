@@ -1,0 +1,5 @@
+# VI ILUSTRASI
+
+Ilustrasi merupakan suatu sajian informasi dalam bentuk tabel, grafik, diagram alir, bagan, foto, peta, dan gambar. Dengan ilustrasi, informasi dapat disajikan lebih efektif untuk menjelaskan hubungan antarpeubah dan penggunaan kalimat yang terlalu panjang dapat dihindari sehingga pembaca dapat memahami tulisan dengan lebih mudah. Prinsip yang harus diingat dalam pembuatan ilustrasi ialah bahwa ilustrasi harus menarik dan dengan sendirinya dapat menjelaskan informasi yang akan disampaikan. Ilustrasi berupa tabel atau gambar tidak diperlukan jika data dapat dijelaskan dalam satu kalimat. Contoh: tinggi tanaman yang semula 10,2 cm pada minggu pertama menjadi 13,7 cm pada minggu kedua dan 15,1 cm pada minggu ketiga.
+
+Dalam tulisan karya ilmiah, semua ilustrasi berupa bentuk tabel dinyatakan sebagai Tabel, sedangkan ilustrasi dalam bentuk grafik, diagram alir, foto, dan gambar dinyatakan sebagai Gambar. Hati-hati mereproduksi ilustrasi dari pustaka acuan yang dilindungi hak cipta. Izin perlu dimintakan kepada penerbit yang bersangkutan.

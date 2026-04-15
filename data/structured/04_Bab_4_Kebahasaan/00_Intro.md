@@ -1,0 +1,5 @@
+# IV KEBAHASAAN
+
+Bahasa Indonesia berkembang sangat pesat seiring dengan perkembangan ilmu pengetahuan, teknologi, dan seni. Hal ini tecermin dari bertambahnya jumlah lema (entri) dari sekitar 62 ribu dalam Kamus Besar Bahasa Indonesia (KBBI) edisi ke-1 menjadi sekitar 127 ribu pada edisi ke-5. KBBI versi daring (dalam jaringan, online) dapat diakses di https://kbbi.kemdikbud.go.id/ dan versi luringnya (luar jaringan, apps) dapat diunduh di Google Playstore. Daftar istilah dan padanannya yang semula diterbitkan dalam bentuk cetakan Glosarium Istilah untuk setiap bidang ilmu telah diganti menjadi glosarium daring yang memuat lebih dari 180 ribu padanan istilah Indonesia-Inggris dan sebaliknya, serta dapat diakses di http://badanbahasa.kemdikbud.go.id/glosarium/.
+
+Dalam bab ini akan diuraikan beberapa perangkat kebahasaan, pemilihan kata, penataan kalimat, dan pengefektifan paragraf. Penataan kalimat dalam paragraf, seharusnya tidak meninggalkan satu baris kalimat di bagian atas atau bawah halaman.

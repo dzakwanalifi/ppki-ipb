@@ -1,0 +1,23 @@
+# VII PENGUTIPAN PUSTAKA DAN PENYUSUNAN
+
+DAFTAR PUSTAKA
+
+Dalam karya tulis, karya seseorang atau kelompok orang dikutip karena penulis ingin memperkuat gagasan tulisannya. Kutipan dalam karyanya menunjukkan penulis telah menghargai hasil penelitian orang lain untuk mendukung kegiatannya atau mengembangkan dan memperbaiki hasil penelitian yang sudah ada. Oleh sebab itu, kutipan yang digunakan harus diberi keterangan dari mana diperoleh dengan menuliskan nama penulis dan tahun terbitan, kadang kala untuk bidang ilmu tertentu dengan menyertakan nomor halaman tempat kutipan berada pada sumber aslinya. Dengan demikian, penulis telah mengikuti etika dalam pengacuan sumber informasi dan terhindar dari plagiarisme (lihat penjelasan pada bab Etika dalam Penelitian dan Penulisan Karya Ilmiah).
+
+Tidak semua sumber pustaka layak dirujuk di sebuah karya ilmiah. Sumber pustaka yang dapat dirujuk haruslah dapat dipercaya (credible source). Penulis karya ilmiah yang mengutip sebuah sumber yang tidak dapat dipercaya dapat merusak kepercayaan para pembacanya. Sumber pustaka yang dapat dipercaya antara lain yang berasal dari artikel dalam jurnal ilmiah, buku, monograf, atau makalah ilmiah yang sudah teruji oleh komunitas akademik seilmu dan diterbitkan dalam jurnal atau penerbit yang bereputasi.
+
+Indikasi terbitan yang bereputasi misalnya terindeks Sinta, Scopus, atau yang mempunyai impact factor tinggi. Sumber pustaka harus mutakhir, misalnya dipublikasi maksimal 10 tahun lalu, walau terkadang bisa lebih lama terkait topik dan bidang ilmu.
+
+Jika akan menggunakan sumber informasi dari situs Internet, sumber tersebut harus dievaluasi dengan lebih hati-hati. Situs harus dapat dipercaya misalnya situs yang terdaftar sebagai milik lembaga pemerintah atau pendidikan, misalnya situs dengan domain .gov, .edu, atau .ac. Sumber dalam situs tersebut dilengkapi dengan nama penulis yang reputasinya jelas. Situs dengan domain .com, .org, dan .net kurang dapat dipercaya karena dapat dibeli dan digunakan secara perorangan. Situs Wikipedia dikategorikan sebagai situs yang tidak dapat dipercaya karena setiap orang dapat menyunting laman dalam situs ini. Pustaka berupa skripsi, tesis, atau disertasi yang relevan dapat dikutip secara terbatas.
+
+Suatu informasi harus dikutip dengan benar supaya tidak melanggar etika ilmiah.
+
+Ketika mengutip karya atau pendapat orang lain sebagai suatu pernyataan dalam tulisannya, penulis wajib menuliskan sumber acuannya. Beberapa gaya penulisan sumber acuan ialah American Mathematical Society, American Psychological Association, dan Council of Science (CSE), Modern Language Association of America, The Chicago Manual of Style, dan gaya Turabian. Pada dasarnya sumber acuan ditulis dengan tujuan yang sama, yaitu supaya pembaca mudah menelusurnya kembali.
+
+Dua macam sistem pengacuan dikenal sebagai sistem Harvard (nama-tahun) dan Vancouver (nomor). Pada sistem nama-tahun, sumber acuan di dalam teks dinyatakan dengan nama penulis dan tahun ketika informasi diterbitkan, selanjutnya sumber informasi lengkapnya disusun menurut abjad pada Daftar Pustaka. Pada sistem nomor, sumber acuan di dalam teks dinyatakan dengan nomor berurut mengikuti ketentuan yang didaftarkan dengan urutan nomor tadi di dalam Daftar Pustaka.
+
+Pengacuan yang digunakan di IPB menggunakan sistem Harvard dengan mengikuti gaya penulisan sumber acuan CSE edisi ke-8 (2014). CSE (2014) menawarkan format pengacuan sumber informasi dan daftar pustaka yang lebih sederhana dibandingkan
+
+dengan gaya lainnya. Format yang ditawarkan ialah mengurangi pekerjaan pengetikan, misal menggunakan singkatan tanpa tanda baca titik; mengganti tanda ampersan (&) dengan ‘dan’; menggunakan huruf kapital di awal judul artikel saja. Dengan demikian, pekerjaan lebih mudah dan efisien. Tampilan tulisan menggunakan gaya CSE pun tampak lebih bersih dibandingkan dengan gaya lainnya. Pada CSE (2014) ditambahkan pengacuan yang berasal dari sumber elektronik. Selain itu, sistem yang ditawarkan juga didasarkan pada prinsip-prinsip dasar mengikuti International Organization for Standardization (ISO).
+
+Untuk kemudahan melakukan pengacuan dan penyusunan daftar pustaka dapat digunakan perangkat lunak pengelolaan referensi secara daring seperti EndNote atau Mendeley. Perangkat lunak tersebut dapat diunduh dari Internet dan mudah digunakan dengan mengikuti petunjuk yang disediakan dalam bentuk teks atau video di www.youtube.com.

@@ -1,0 +1,37 @@
+---
+description: Pedoman Penulisan Karya Ilmiah (PPKI) IPB University Formatting Rules
+globs: data/structured/**/*.md, reports/**/*.md, thesis/**/*.md
+alwaysApply: true
+---
+
+# PPKI IPB University Formatting Standards
+
+Any document related to reports or scientific writing for IPB University MUST follow these formatting rules:
+
+## 1. Page Layout (Margins)
+- **Left Margin**: 4 cm (to account for binding)
+- **Top Margin**: 3 cm
+- **Right Margin**: 3 cm
+- **Bottom Margin**: 3 cm
+
+## 2. Typography
+- **Font**: Times New Roman
+- **Font Size**: 12 pt for body text
+- **Chapter Titles**: 14 pt, Bold, Centered
+- **Line Spacing**: 1.0 (Single Spacing)
+- **Paragraph Indentation**: First line indented by 1 cm
+
+## 3. Language & Terminology
+- **Language**: Formal Indonesian (Bahasa Indonesia Formal)
+- **Voice**: Passive voice (e.g., "Data dikumpulkan" instead of "Kami mengumpulkan data")
+- **Mandatory Terms**:
+  - Use `Prakata` instead of "Kata Pengantar"
+  - Use `Simpulan` instead of "Kesimpulan"
+  - Use `Daftar Pustaka` instead of "Referensi"
+
+## 4. Citation Style
+- **Standard**: IPB University (Based on APA 7th Edition)
+- **Reference Section**: `07_Bab_7_Daftar_Pustaka/`
+
+## Tools
+- Search for specific rules: `python scripts/search_ppki.py "<query>"`
