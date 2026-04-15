@@ -5,7 +5,7 @@ import math
 from collections import Counter
 
 class BM25Search:
-    def __init__(self, directory="data/structured", k1=1.5, b=0.75):
+    def __init__(self, directory="skills/ppki-ipb/references", k1=1.5, b=0.75):
         self.directory = directory
         self.k1 = k1
         self.b = b
@@ -72,7 +72,7 @@ class BM25Search:
         scores.sort(key=lambda x: x[1], reverse=True)
         return scores[:n]
 
-def get_context(query, file_rel_path, directory="data/structured"):
+def get_context(query, file_rel_path, directory="skills/ppki-ipb/references"):
     path = os.path.join(directory, file_rel_path)
     with open(path, "r", encoding="utf-8") as f:
         content = f.read()

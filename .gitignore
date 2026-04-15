@@ -1,0 +1,21 @@
+# Local configuration
+.env
+.env.local
+
+# AI tools temporary data
+.gemini/tmp/
+.cursor/
+!.cursor/rules/
+.claude/
+.devtools/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
