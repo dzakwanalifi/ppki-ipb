@@ -17,10 +17,11 @@ Official AI-Native knowledge base for **Pedoman Penulisan Karya Ilmiah (PPKI) IP
 This skill uses progressive disclosure via `references/`:
 - `01_Bab_1_Pendahuluan`: Writing paradigms (IMRAD, etc.).
 - `05_Bab_5_Tata_Tulis_Teknis/5.0_Ketentuan_Umum_Pengetikan.md`: Margins and fonts.
+- `06_Bab_6_Tabel_dan_Gambar`: Standards for illustrations.
 - `07_Bab_7_Daftar_Pustaka`: Citation rules (critical).
 
-### 💎 Citation Standard (JSON Schema)
-Always refer to `assets/citation_schemas.json` when generating or correcting references. It contains exact templates for Journals, Books, and Theses.
+### 💎 PPKI Standards (JSON Schema)
+Always refer to `assets/ppki_standards.json` when generating tables, figures, or references. It contains exact rules for punctuation, margins, and citation styles.
 
 ## 🛠️ Specialized Tools
 - **Search**: `python scripts/search_ppki.py "<query>"`
@@ -30,5 +31,5 @@ Always refer to `assets/citation_schemas.json` when generating or correcting ref
 
 ## 💡 Best Practices
 - **Active Validation**: Before finishing a task, run the Linter on the output to ensure compliance.
-- **Citation Grounding**: Use the JSON examples as a guide for punctuation (no dots in initials).
+- **Illustration Rules**: Tables have only 3 horizontal lines and NO vertical lines. Titles for Tables (above) and Figures (below) must NOT end with a period.
 - **Tone**: Always maintain a formal, objective, and passive tone in Indonesian.

@@ -42,11 +42,19 @@ class PPKILinter:
             if not re.search(r"4.*3.*3.*3", self.content) and not re.search(r"4-3-3-3", self.content):
                 self.errors.append("[FORMATTING] Pastikan margin mengikuti aturan IPB: Kiri 4cm, Atas/Kanan/Bawah 3cm (4-3-3-3).")
 
+    def check_illustration_titles(self):
+        """Aturan: Judul Tabel dan Gambar TIDAK diakhiri titik."""
+        # Mencari pola "Tabel x.x Judul." atau "Gambar x.x Judul."
+        titles = re.finditer(r"^(Tabel|Gambar)\s+\d+\.\d+.*?\.\s*$", self.content, re.MULTILINE)
+        for match in titles:
+            self.errors.append(f"[ILUSTRASI] Judul {match.group(1)} tidak boleh diakhiri tanda titik: '{match.group(0).strip()}'.")
+
     def run(self):
         self.check_forbidden_pronouns()
         self.check_terminology()
         self.check_citation_format()
         self.check_margins_mention()
+        self.check_illustration_titles()
         return self.errors
 
 if __name__ == "__main__":

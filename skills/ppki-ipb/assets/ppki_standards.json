@@ -1,0 +1,36 @@
+{
+  "version": "PPKI-IPB-2024",
+  "citation_system": "Harvard (Name-Year)",
+  "standard_style": "CSE 8th (Modified)",
+  "common_rules": {
+    "author_format": "FamilyName InitialInitial (No periods, e.g., 'Suhardiyanto H').",
+    "year_format": "YYYY.",
+    "passive_voice": true,
+    "no_dan_in_bibliography": true
+  },
+  "illustration_rules": {
+    "table": {
+      "title_position": "above",
+      "title_ending_period": false,
+      "horizontal_lines_count": 3,
+      "vertical_lines_allowed": false,
+      "numeric_alignment": "decimal_aligned or right",
+      "markdown_tip": "Use only top, middle (header), and bottom separators. No vertical pipes '|' except for column structure if necessary, but visually clean."
+    },
+    "figure": {
+      "title_position": "below",
+      "title_ending_period": false,
+      "alignment": "centered"
+    }
+  },
+  "schemas": {
+    "journal": {
+      "template": "{authors}. {year}. {title}. {journal_name}. {volume}({issue}):{pages}. {doi}",
+      "example": "Kusrini MD, Lubis MI, Endarwin W, et al. 2017. Elevation range shift after 40 years: the amphibians of Mount Gede Pangrango National Park revisited. Biol Conserv. 206:75−84. doi:10.1016/j.biocon.2016.12.018."
+    },
+    "book": {
+      "template": "{authors}. {year}. {title}. [{edition}]. {city}: {publisher}.",
+      "example": "Satria A. 2015. Politik Kelautan dan Perikanan. Jakarta: Obor."
+    }
+  }
+}
