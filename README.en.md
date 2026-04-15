@@ -68,19 +68,38 @@ curl -o CLAUDE.md https://raw.githubusercontent.com/dzakwanalifi/ppki-ipb/master
 
 ---
 
-## CHAPTER V OPERATIONAL SEARCH GUIDE (SEARCH TOOL)
+## CHAPTER V OPERATIONAL GUIDE (TOOLS)
 
-Searching for specific rules within the knowledge base can be done via the following terminal command:
+Searching for rules and language validation can be performed via the following terminal commands:
+
+### 5.1 Knowledge Base Search (BM25)
 ```bash
 python scripts/search_ppki.py "<keyword>"
 ```
-*This script uses the BM25 algorithm to rank results based on the relevance of the substance within the PPKI documents.*
+
+### 5.2 Formal Word Check (KBBI VI)
+```bash
+python scripts/check_kbbi.py "<word>"
+```
+*This feature connects directly to the KBBI Edition VI API to ensure your diction meets national standards.*
+
+### 5.3 House Style Validation (Linter)
+```bash
+python scripts/lint_ppki.py <target_file.md>
+```
 
 ---
 
 ## CONCLUSION
 
 The digitalization of the IPB 2024 PPKI into an AI agent repository is a strategic step in facilitating IPB University students to produce high-quality scientific works. With proper integration, the university's house style standards can be consistently maintained throughout all stages of writing.
+
+---
+
+## CREDITS & APPRECIATION
+
+The development of this repository relies on the following external data support:
+- **KBBI API (Edition VI)**: Provided by [raf555/kbbi-api](https://github.com/raf555/kbbi-api). Special thanks for providing modern and stable access to Indonesian language data.
 
 ---
 

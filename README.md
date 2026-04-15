@@ -81,19 +81,38 @@ curl -o AGENTS.md https://raw.githubusercontent.com/dzakwanalifi/ppki-ipb/master
 
 ---
 
-## BAB V PANDUAN OPERASIONAL PENCARIAN (SEARCH TOOL)
+## BAB V PANDUAN OPERASIONAL (TOOLS)
 
-Pencarian aturan spesifik dalam basis pengetahuan dapat dilakukan melalui perintah terminal berikut:
+Pencarian aturan dan validasi bahasa dapat dilakukan melalui perintah terminal berikut:
+
+### 5.1 Pencarian Basis Pengetahuan (BM25)
 ```bash
 python scripts/search_ppki.py "<kata_kunci>"
 ```
-*Skrip ini menggunakan algoritma BM25 untuk mengurutkan hasil berdasarkan relevansi substansi dalam dokumen PPKI.*
+
+### 5.2 Pengecekan Kata Baku (KBBI VI)
+```bash
+python scripts/check_kbbi.py "<kata>"
+```
+*Fitur ini terhubung langsung dengan API KBBI Edisi VI untuk memastikan diksi Anda sesuai dengan standar nasional.*
+
+### 5.3 Validasi Gaya Selingkung (Linter)
+```bash
+python scripts/lint_ppki.py <target_file.md>
+```
 
 ---
 
 ## SIMPULAN
 
 Penerapan digitalisasi PPKI IPB 2024 dalam bentuk repositori agen AI ini merupakan langkah strategis dalam memfasilitasi mahasiswa IPB University untuk menghasilkan karya ilmiah yang berkualitas tinggi. Dengan integrasi yang tepat, standar gaya selingkung universitas dapat dipertahankan secara konsisten di seluruh tahap penulisan.
+
+---
+
+## KREDIT & APRESIASI
+
+Pengembangan repositori ini tidak lepas dari dukungan data eksternal berikut:
+- **KBBI API (Edisi VI)**: Disediakan oleh [raf555/kbbi-api](https://github.com/raf555/kbbi-api). Terima kasih telah menyediakan akses data bahasa Indonesia yang mutakhir dan stabil.
 
 ---
 

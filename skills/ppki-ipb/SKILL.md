@@ -25,7 +25,8 @@ Always refer to `assets/citation_schemas.json` when generating or correcting ref
 ## 🛠️ Specialized Tools
 - **Search**: `python scripts/search_ppki.py "<query>"`
 - **Lint/Validate**: `python scripts/lint_ppki.py <target_file.md>`
-  *Use this to check user drafts for passive voice, terminology (Prakata/Simpulan), and citation errors.*
+- **KBBI Check**: `python scripts/check_kbbi.py "<kata>"`
+  *Use this to verify if a word is formal/standard (baku) according to KBBI Edition VI.*
 
 ## 💡 Best Practices
 - **Active Validation**: Before finishing a task, run the Linter on the output to ensure compliance.

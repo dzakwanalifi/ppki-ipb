@@ -4,6 +4,7 @@
 
 ## Build and Search Commands
 - Search rules: `python scripts/search_ppki.py "<query>" -d data/structured`
+- KBBI Check: python scripts/check_kbbi.py "<kata>"
 - Clean source: `python scripts/clean_md.py`
 - Repack skill: `node C:\Users\dzakw\AppData\Local\nvm\v22.14.0\node_modules\@google\gemini-cli\bundle\builtin\skill-creator\scripts\package_skill.cjs ppki-ipb .`
 
