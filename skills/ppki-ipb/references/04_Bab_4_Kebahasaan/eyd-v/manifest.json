@@ -1,0 +1,268 @@
+[
+  {
+    "order": 1,
+    "title": "Beranda",
+    "url": "https://ejaan.kemendikdasmen.go.id/",
+    "section": "EYD V",
+    "file": "01-beranda.md"
+  },
+  {
+    "order": 2,
+    "title": "Kata Pengantar",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/",
+    "section": "EYD V",
+    "file": "02-kata-pengantar.md"
+  },
+  {
+    "order": 3,
+    "title": "Surat Keputusan",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/surat-keputusan/",
+    "section": "EYD V",
+    "file": "03-surat-keputusan.md"
+  },
+  {
+    "order": 4,
+    "title": "Huruf Abjad",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-huruf/huruf-abjad/",
+    "section": "Penggunaan Huruf",
+    "file": "04-huruf-abjad.md"
+  },
+  {
+    "order": 5,
+    "title": "Huruf Vokal",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-huruf/huruf-vokal/",
+    "section": "Penggunaan Huruf",
+    "file": "05-huruf-vokal.md"
+  },
+  {
+    "order": 6,
+    "title": "Huruf Konsonan",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-huruf/huruf-konsonan/",
+    "section": "Penggunaan Huruf",
+    "file": "06-huruf-konsonan.md"
+  },
+  {
+    "order": 7,
+    "title": "Gabungan Huruf Vokal",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-huruf/gabungan-huruf-vokal/",
+    "section": "Penggunaan Huruf",
+    "file": "07-gabungan-huruf-vokal.md"
+  },
+  {
+    "order": 8,
+    "title": "Gabungan Huruf Konsonan",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-huruf/gabungan-huruf-konsonan/",
+    "section": "Penggunaan Huruf",
+    "file": "08-gabungan-huruf-konsonan.md"
+  },
+  {
+    "order": 9,
+    "title": "Huruf Kapital",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-huruf/huruf-kapital/",
+    "section": "Penggunaan Huruf",
+    "file": "09-huruf-kapital.md"
+  },
+  {
+    "order": 10,
+    "title": "Huruf Miring",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-huruf/huruf-miring/",
+    "section": "Penggunaan Huruf",
+    "file": "10-huruf-miring.md"
+  },
+  {
+    "order": 11,
+    "title": "Huruf Tebal",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-huruf/huruf-tebal/",
+    "section": "Penggunaan Huruf",
+    "file": "11-huruf-tebal.md"
+  },
+  {
+    "order": 12,
+    "title": "Kata Dasar",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/kata-dasar/",
+    "section": "Penulisan Kata",
+    "file": "12-kata-dasar.md"
+  },
+  {
+    "order": 13,
+    "title": "Kata Turunan",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/kata-turunan/",
+    "section": "Penulisan Kata",
+    "file": "13-kata-turunan.md"
+  },
+  {
+    "order": 14,
+    "title": "Pemenggalan Kata",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/pemenggalan-kata/",
+    "section": "Penulisan Kata",
+    "file": "14-pemenggalan-kata.md"
+  },
+  {
+    "order": 15,
+    "title": "Kata Depan",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/kata-depan/",
+    "section": "Penulisan Kata",
+    "file": "15-kata-depan.md"
+  },
+  {
+    "order": 16,
+    "title": "Partikel",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/partikel/",
+    "section": "Penulisan Kata",
+    "file": "16-partikel.md"
+  },
+  {
+    "order": 17,
+    "title": "Singkatan",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/singkatan-dan-akronim/",
+    "section": "Penulisan Kata",
+    "file": "17-singkatan.md"
+  },
+  {
+    "order": 18,
+    "title": "Angka dan Bilangan",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/angka-dan-bilangan/",
+    "section": "Penulisan Kata",
+    "file": "18-angka-dan-bilangan.md"
+  },
+  {
+    "order": 19,
+    "title": "Kata Ganti ku-, kau-, -ku, -mu, dan -nya",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/kata-ganti/",
+    "section": "Penulisan Kata",
+    "file": "19-kata-ganti-ku-kau-ku-mu-dan-nya.md"
+  },
+  {
+    "order": 20,
+    "title": "Kata Sandang si dan sang",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/kata-sandang/",
+    "section": "Penulisan Kata",
+    "file": "20-kata-sandang-si-dan-sang.md"
+  },
+  {
+    "order": 21,
+    "title": "Tanda Titik (.)",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-titik/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "21-tanda-titik.md"
+  },
+  {
+    "order": 22,
+    "title": "Tanda Koma (,)",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-koma/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "22-tanda-koma.md"
+  },
+  {
+    "order": 23,
+    "title": "Tanda Titik Koma (;)",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-titik-koma/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "23-tanda-titik-koma.md"
+  },
+  {
+    "order": 24,
+    "title": "Tanda Titik Dua (:)",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-titik-dua/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "24-tanda-titik-dua.md"
+  },
+  {
+    "order": 25,
+    "title": "Tanda Hubung (-)",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-hubung/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "25-tanda-hubung.md"
+  },
+  {
+    "order": 26,
+    "title": "Tanda Pisah (—)",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-pisah/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "26-tanda-pisah.md"
+  },
+  {
+    "order": 27,
+    "title": "Tanda Tanya (?)",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-tanya/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "27-tanda-tanya.md"
+  },
+  {
+    "order": 28,
+    "title": "Tanda Seru (!)",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-seru/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "28-tanda-seru.md"
+  },
+  {
+    "order": 29,
+    "title": "Tanda Elipsis (…)",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-elipsis/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "29-tanda-elipsis.md"
+  },
+  {
+    "order": 30,
+    "title": "Tanda Petik (\"…\")",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-petik/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "30-tanda-petik.md"
+  },
+  {
+    "order": 31,
+    "title": "Tanda Petik Tunggal ('…')",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-petik-tunggal/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "31-tanda-petik-tunggal.md"
+  },
+  {
+    "order": 32,
+    "title": "Tanda Kurung ((…))",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-kurung/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "32-tanda-kurung.md"
+  },
+  {
+    "order": 33,
+    "title": "Tanda Kurung Siku ([…])",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-kurung-siku/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "33-tanda-kurung-siku.md"
+  },
+  {
+    "order": 34,
+    "title": "Tanda Garis Miring (/)",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-garis-miring/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "34-tanda-garis-miring.md"
+  },
+  {
+    "order": 35,
+    "title": "Tanda Apostrof (')",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-penyingkat-apostrof/",
+    "section": "Penggunaan Tanda Baca",
+    "file": "35-tanda-apostrof.md"
+  },
+  {
+    "order": 36,
+    "title": "Pengantar",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/unsur-serapan/",
+    "section": "Penulisan Unsur Serapan",
+    "file": "36-pengantar.md"
+  },
+  {
+    "order": 37,
+    "title": "Serapan Umum",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/unsur-serapan/umum/",
+    "section": "Penulisan Unsur Serapan",
+    "file": "37-serapan-umum.md"
+  },
+  {
+    "order": 38,
+    "title": "Serapan Khusus",
+    "url": "https://ejaan.kemendikdasmen.go.id/eyd/unsur-serapan/khusus/",
+    "section": "Penulisan Unsur Serapan",
+    "file": "38-serapan-khusus.md"
+  }
+]
