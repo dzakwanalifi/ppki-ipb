@@ -5,7 +5,7 @@ Kumpulan keahlian agen AI (*Agent Skills*) untuk **Pedoman Penulisan Karya Ilmia
 [![AI Compatible](https://img.shields.io/badge/AI-Gemini%20CLI%20|%20Claude%20Code%20|%20Cursor-blueviolet)](https://github.com/google/gemini-cli)
 [![Vercel Skills](https://img.shields.io/badge/Vercel-Skills-black)](https://skills.sh)
 
-## 🚀 Instalasi
+## 🚀 Pemasangan
 
 Pasang kecerdasan PPKI ke proyek Anda menggunakan CLI Vercel Agent Skills:
 
@@ -14,6 +14,40 @@ npx skills add dzakwanalifi/ppki-ipb
 ```
 
 *Mendukung 18+ agen AI termasuk Claude Code, Cursor, GitHub Copilot, dan Gemini CLI.*
+
+### Pemasangan bagi Pemula (Tanpa Node.js / npx)
+
+Sistem yang belum memiliki *Node.js* atau *npx* dapat menggunakan salah satu metode di bawah ini:
+
+#### Metode A: Memasang Node.js (Rekomendasi)
+
+Pemasangan *Node.js* akan secara otomatis menyediakan perintah *npm* dan *npx*.
+
+*   *Windows (via PowerShell/CMD)*:
+    Jalankan perintah berikut:
+    ```powershell
+    winget install OpenJS.NodeJS
+    ```
+    Muat ulang *PowerShell* atau *CMD* setelah pemasangan selesai. Pilihan lain, unduh berkas pemasang *.msi* langsung dari situs resmi *nodejs.org*.
+
+*   *macOS (via Terminal)*:
+    Jalankan perintah berikut:
+    ```bash
+    brew install node
+    ```
+    Pilihan lain, unduh berkas pemasang *.pkg* langsung dari situs resmi *nodejs.org*.
+
+Jalankan perintah utama di atas untuk menambahkan keahlian setelah pemasangan berhasil.
+
+#### Metode B: Pemasangan Manual (Tanpa Pemasangan Node.js)
+
+1.  Salin folder *skills/ppki-ipb* secara manual dari proyek ini.
+2.  Tempel folder tersebut ke dalam direktori konfigurasi agen AI:
+    *   *Cursor (Windows)*: `%USERPROFILE%\.cursor\skills\`
+    *   *Cursor (macOS)*: `~/.cursor/skills/`
+    *   *Claude Code (Windows)*: `%USERPROFILE%\.claude\skills\`
+    *   *Claude Code (macOS)*: `~/.claude/skills/`
+3.  Muat ulang aplikasi agen AI untuk menerapkan keahlian baru tersebut.
 
 ---
 
