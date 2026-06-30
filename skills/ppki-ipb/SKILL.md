@@ -19,6 +19,7 @@ This skill uses progressive disclosure via `references/`:
 - `01_Bab_1_Pendahuluan`: Writing paradigms (IMRAD, etc.).
 - `04_Bab_4_Kebahasaan`: Indonesian grammar, diksi, and style rules.
 - `04_Bab_4_Kebahasaan/language-review-guide.md`: Guidance for language evaluation.
+- `04_Bab_4_Kebahasaan/ai-writing-avoidance.md`: Guidelines for detecting and avoiding AI-generated writing style.
 - `04_Bab_4_Kebahasaan/eyd-v/`: Full official guidelines of EYD V (PUEBI replacement).
 - `05_Bab_5_Tata_Tulis_Teknis/5.0_Ketentuan_Umum_Pengetikan.md`: Margins and fonts.
 - `06_Bab_6_Tabel_dan_Gambar`: Standards for illustrations.
@@ -53,5 +54,5 @@ When asked to evaluate or improve Indonesian writing quality:
 - **Active Validation**: Before finishing a task, run the Linter on the output to ensure compliance.
 - **Illustration Rules**: Tables have only 3 horizontal lines and NO vertical lines. Titles for Tables (above) and Figures (below) must NOT end with a period.
 - **Technical Notation**: Use comma (,) for decimals. Add a space between number and unit (e.g., 100 kg). Variables should be *italicized*, but units must be upright.
-- **Tone**: Always maintain a formal, objective, and passive tone in Indonesian. Avoid first-person pronouns.
+- **Tone**: Always maintain a formal, objective, and passive tone in Indonesian. Avoid first-person pronouns. Detect and strictly avoid AI writing patterns (e.g. overused AI vocabulary, rule of three, compulsive summaries, negative parallelisms) as documented in the AI writing avoidance guidelines.
 
