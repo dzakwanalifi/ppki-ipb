@@ -5,7 +5,7 @@ description: Pedoman Penulisan Karya Ilmiah (PPKI) IPB University 2024. Use for 
 
 # PPKI IPB Agent Skill (Vercel Skills Compatible)
 
-Official AI-Native knowledge base for **Pedoman Penulisan Karya Ilmiah (PPKI) IPB University**.
+AI-Native knowledge base for **Pedoman Penulisan Karya Ilmiah (PPKI) IPB University**.
 
 ## 🚀 When to use this skill
 - formatting rules (margins 4-3-3-3, fonts TNR 12pt).
