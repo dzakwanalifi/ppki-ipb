@@ -17,6 +17,22 @@ npx skills add dzakwanalifi/ppki-ipb
 
 *Mendukung 18+ agen AI termasuk Claude Code, Cursor, GitHub Copilot, dan Gemini CLI.*
 
+### Pembaruan Keahlian (Update)
+
+Jika Anda sudah memasang keahlian ini sebelumnya dan ingin memperbaruinya ke versi terbaru:
+
+* Melalui Perintah Update:
+  ```bash
+  npx skills update
+  ```
+  *Catatan: Perintah ini akan memperbarui semua keahlian yang terpasang secara global.*
+
+* Pemasangan Ulang (Overwriting):
+  Anda juga dapat melakukan pemasangan ulang untuk menimpa berkas lama dengan versi terbaru:
+  ```bash
+  npx skills add dzakwanalifi/ppki-ipb
+  ```
+
 ### Pilihan Selama Pemasangan Interaktif
 
 Saat menjalankan perintah pemasangan di atas, beberapa opsi berikut akan ditawarkan:

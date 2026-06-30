@@ -17,6 +17,22 @@ npx skills add dzakwanalifi/ppki-ipb
 
 *Supports 18+ agents including Claude Code, Cursor, GitHub Copilot, and Gemini CLI.*
 
+### Updating the Skill
+
+If you have already installed this skill and want to update to the latest version:
+
+* Via Update Command:
+  ```bash
+  npx skills update
+  ```
+  *Note: This command will update all globally installed skills.*
+
+* Overwriting (Re-installation):
+  You can also force an update by re-running the installation command to overwrite the existing files:
+  ```bash
+  npx skills add dzakwanalifi/ppki-ipb
+  ```
+
 ### Options During Interactive Installation
 
 When running the installation command above, you will be offered the following options:
